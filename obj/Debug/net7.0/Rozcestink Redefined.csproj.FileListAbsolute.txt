@@ -1,0 +1,88 @@
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\appsettings.Development.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\appsettings.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.staticwebassets.runtime.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.exe
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.deps.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.runtimeconfig.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.pdb
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.csproj.AssemblyReference.cache
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.AssemblyInfoInputs.cache
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.AssemblyInfo.cs
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.csproj.CoreCompileInputs.cache
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.RazorAssemblyInfo.cache
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.RazorAssemblyInfo.cs
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.Rozcestink Redefined.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.build.Rozcestink Redefined.props
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rozcestink Redefined.props
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rozcestink Redefined.props
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets.build.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets.development.json
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\scopedcss\bundle\Rozcestink Redefined.styles.css
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\scopedcss\projectbundle\Rozcestink Redefined.bundle.scp.css
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\refint\Rozcestink Redefined.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.pdb
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.genruntimeconfig.cache
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\ref\Rozcestink Redefined.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.DirectoryServices.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.csproj.CopyComplete
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Microsoft.Web.Administration.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\unix\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll
+C:\Projects\JCS2\07\Kod\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\appsettings.Development.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\appsettings.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.staticwebassets.runtime.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.exe
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.deps.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.runtimeconfig.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Rozcestink Redefined.pdb
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Microsoft.Web.Administration.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.DirectoryServices.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\unix\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.csproj.AssemblyReference.cache
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.AssemblyInfoInputs.cache
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.AssemblyInfo.cs
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.csproj.CoreCompileInputs.cache
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.RazorAssemblyInfo.cache
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.RazorAssemblyInfo.cs
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.Rozcestink Redefined.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.build.Rozcestink Redefined.props
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rozcestink Redefined.props
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rozcestink Redefined.props
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets.build.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\staticwebassets.development.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\scopedcss\bundle\Rozcestink Redefined.styles.css
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\scopedcss\projectbundle\Rozcestink Redefined.bundle.scp.css
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.csproj.CopyComplete
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\refint\Rozcestink Redefined.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.pdb
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\Rozcestink Redefined.genruntimeconfig.cache
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\ref\Rozcestink Redefined.dll

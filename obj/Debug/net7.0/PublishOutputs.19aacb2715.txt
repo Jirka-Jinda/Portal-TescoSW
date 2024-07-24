@@ -1,0 +1,19 @@
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Rozcestink Redefined.exe
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\appsettings.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Rozcestink Redefined.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Rozcestink Redefined.deps.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Rozcestink Redefined.runtimeconfig.json
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Rozcestink Redefined.pdb
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Microsoft.Web.Administration.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\System.DirectoryServices.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\System.Drawing.Common.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\System.Security.Permissions.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\System.Windows.Extensions.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\runtimes\win\lib\net7.0\System.DirectoryServices.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\runtimes\unix\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\runtimes\win\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll
+C:\Projects\Rozcestink Redefined\Rozcestink Redefined\obj\Debug\net7.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Windows.Extensions.dll

@@ -1,0 +1,174 @@
+﻿@model List<Models.AppLinksModel>
+@{
+    // Data vars
+    ViewData["Title"] = ViewBag.Title;
+    List<string> favourites = (List<string>)ViewBag.Favourites;
+    List<string> groups = ViewBag.GroupKeywords;
+    List<List<AppLinksModel>> GroupedAppLinks = new();
+    List<Models.AppLinksModel> Data = new List<Models.AppLinksModel>(Model);
+    List<Models.AppLinksModel> Others = new List<Models.AppLinksModel>(Model);
+
+    for (int k = 0; k < groups.Count; k++)
+        if (groups[k] == "")
+            groups.Remove(groups[k]);
+
+    // Temp vars
+    int item_num = 0;
+
+    // Group and favourites processing
+    List<AppLinksModel> tempFavourites = new();
+    for (int k = 0; k < Data.Count; k++)
+    {
+        if (favourites.Contains(Data[k].Name))
+        {
+            tempFavourites.Add(Data[k]);
+            Others.Remove(Data[k]);
+            Data.Remove(Data[k]);
+            k--;
+        }
+    }
+    GroupedAppLinks.Add(tempFavourites);
+
+    if (groups.Count > 0)
+    {
+        foreach (var group in groups)
+        {
+            List<AppLinksModel> tempGroup = new();
+            foreach (var app in Data)
+            {
+                if (app.Name.ToLower().Contains(group.ToLower()))
+                {
+                    tempGroup.Add(app);
+                    Others.Remove(app);
+                }
+            }
+            GroupedAppLinks.Add(tempGroup);
+        }
+    }
+
+    GroupedAppLinks.Add(Others);
+    if (groups.Count > 0)
+        groups.Add("Ostatní");
+    groups.Insert(0, "Záložky");
+
+    for (int group = 0; group < GroupedAppLinks.Count; group++)
+    {
+        if (GroupedAppLinks[group].Count == 0) continue;
+
+        <div class="text-center">
+            <table class="table table-striped align-middle">
+                <thead>
+                    @if (groups.Count > 2)
+                    {
+                        <tr><h4 class="text-decoration-underline">@groups[group]</h4></tr>
+                    }
+                    <tr>
+                        <th class="col-1" scope="col"></th>
+                        <th class="col-6 text-start" scope="col"></th>
+                        <th class="col-3" scope="col"></th>
+                        <th class="col-1" scope="col"></th>
+                        <th class="col-1" scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider accordion">
+
+                    @foreach (var app_item in GroupedAppLinks[group])
+                    {
+                        string row_id = "row" + item_num;
+                        var item_id = "collapse" + app_item.Id;
+                        var target_id = "#" + item_id;
+                        var status_icon_id = "status-icon_" + app_item.Name;
+                        var restart_button_id = "restart-button_" + app_item.Name;
+
+                        <tr class="accordion-item bg-dark border-light" id="@row_id">
+                            <td class="text-start text-light" scope="row">
+                                @if (!favourites.Contains(app_item.Name))
+                                {
+                                    <form asp-controller="AppLinks" asp-action="AddFavourite" asp-route-name="@app_item.Name">
+                                        <button class="btn" type="submit" data-toggle="tooltip" data-placement="top" title="Přidat do záložek">
+                                            <img class="m-0 " src="@Url.Content("~/assets/icons/bookmark-plus-white.svg")" alt="Add favourite" height="26" width="26">
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="AppLinks" asp-action="RemoveFavourite" asp-route-name="@app_item.Name">
+                                        <button class="btn" type="submit" data-toggle="tooltip" data-placement="top" title="Odebrat ze záložek">
+                                            <img class="m-0" src="@Url.Content("~/assets/icons/bookmark-dash-fill-white.svg")" alt="Remove favourite" height="26" width="26">
+                                        </button>
+                                    </form>
+                                }
+                            </td>
+                            <td class="text-start">
+                                <a class="text-light" target="_blank" href="@app_item.Url">@app_item.Name</a>
+                            </td>
+                            <td>
+                                @{
+                                    string imgSource = "~/assets/icons/";
+                                    if (app_item.State == AppState.Started) { imgSource += "check-circle-green.svg"; }
+                                    if (app_item.State == AppState.Stopped) { imgSource += "x-circle-red.svg"; }
+                                    if (app_item.State == AppState.Unknown) { imgSource += "question-circle-yellow.svg"; }
+                                    if (app_item.State == AppState.Stopping) { imgSource += "alarm-yellow.svg"; }
+                                    if (app_item.State == AppState.Starting) { imgSource += "alarm-yellow.svg"; }
+                                }
+                                <img id="@status_icon_id" src="@Url.Content($"{imgSource}")" alt="Status icon" width="26" height="26" data-toggle="tooltip" data-placement="top" title="Aktuální stav aplikace">
+                            </td>
+                            <td>
+                                <form asp-controller="AppLinks" asp-action="AppRestart" asp-route-poolName="@app_item.Name">
+                                    <button id="@restart_button_id" class="btn" type="submit" data-toggle="tooltip" data-placement="top" title="Restart aplikace">
+                                        <img class="mx-0 icon" src="@Url.Content("~/assets/icons/arrow-repeat.svg")" alt="Restart" height="28" width="28">
+                                    </button>
+                                </form>
+                            </td>
+                            <td>
+                                @{
+                                    // Nejak oznacit, ze informace nejsou k dispozici?
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="@target_id" aria-expanded="false" aria-controls="@item_id" data-toggle="tooltip" data-placement="top" title="Možnosti dispečera">
+                                        <img class="mx-0 icon" src="@Url.Content("~/assets/icons/caret-down-square.svg")" alt="Options" height="28" width="28">
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+
+                        <tr id="@item_id" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="@row_id">
+                            <td class="accordion-body" colspan="4">
+                                <table class="table align-middle w-100">
+                                    @if (ViewBag.Options) // Zobrazeni dispecera
+                                    {
+                                        <tr>
+                                            <td class="col-2"></td>
+                                            <td class="col-3 text-start">@app_item.Dispatcher.Dispatcher</td>
+                                            <td class="col-3">
+                                                @{
+                                                    string dspSource = "~/assets/icons/";
+                                                    if (app_item.State == AppState.Started) { dspSource += "check-circle-green.svg"; }
+                                                    if (app_item.State == AppState.Stopped) { dspSource += "x-circle-red.svg"; }
+                                                    if (app_item.State == AppState.Unknown) { dspSource += "question-circle-yellow.svg"; }
+                                                    if (app_item.State == AppState.Stopping) { dspSource += "alarm-yellow.svg"; }
+                                                    if (app_item.State == AppState.Starting) { dspSource += "alarm-yellow.svg"; }
+                                                }
+                                                <img src="@Url.Content($"{dspSource}")" alt="Status icon" width="26" height="26">
+                                            </td>
+                                            <td class="col-1"></td>
+                                            <td class="col-1">
+                                                <button class="btn btn-primary" type="button" role="button">Start</button>
+                                            </td>
+                                            <td class="col-1">
+                                                <button class="btn btn-primary" type="button" role="button">Stop</button>
+                                            </td>
+                                            <td class="col-1">
+                                                <button class="btn btn-primary" type="button" role="button">Restart</button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </table>
+                            </td>
+                        </tr>
+                        item_num++;
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+
+}

@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Rozcestník MPS";
+}
+
+<div class="container text-center">
+    <div class="row">
+        <div class="card shadow bg-light m-2 col bg-black">
+            <a class="text-decoration-none text-light" asp-area="" asp-controller="AppLinks" asp-action="Vyvoj">
+                <div class="card-body">
+                    <h2 class="py-5">Vývojové aplikace</h2>
+                </div>
+            </a>
+        </div>
+        <div class="card shadow bg-light m-2 col bg-black border-light">
+            <a class="text-decoration-none text-light" asp-area="" asp-controller="AppLinks" asp-action="Kraje">
+                <div class="card-body">
+                    <h2 class="py-5">Kraje</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="card shadow bg-light m-2 col bg-black">
+            <a class="text-decoration-none text-light" asp-area="" asp-controller="AppLinks" asp-action="Mepis">
+                <div class="card-body">
+                    <h2 class="py-5">Mepis</h2>
+                </div>
+            </a>
+        </div>
+        <div class="card shadow bg-light m-2 col bg-black">
+            <a class="text-decoration-none text-light" asp-area="" asp-controller="AppLinks" asp-action="Ostatni">
+                <div class="card-body">
+                    <h2 class="py-5">Ostatní</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

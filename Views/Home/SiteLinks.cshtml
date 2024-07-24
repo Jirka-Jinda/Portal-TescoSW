@@ -1,0 +1,23 @@
+﻿@model List<Models.SiteLinksModel>
+
+@{
+    ViewData["Title"] = "Užitečné odkazy";
+}
+
+<div class="text-center">
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr class="col"><h2>Odkazy</h2></tr>
+        </thead>
+        <tbody class="table-group-divider">
+            @foreach (var link in Model)
+            {
+                <tr class="bg-dark border-light">
+                    <td height="50"><a class="text-light" href=@link.Url>@link.Name</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
